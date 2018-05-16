@@ -1,0 +1,11 @@
+<!--pages/auth/auth.wxml-->
+<view class="section">
+<view class="img-view">
+  <image class='img'  src='/images/auth.png' mode='widthFix'></image>
+</view>
+<view  class="text-view">
+<text class='text'>您的授权已失效，请重新授权</text>
+</view>
+<view class='btn-view'>
+<button class="btn"  bindgetuserinfo="bindGetUserInfo" open-type="getUserInfo"  > 点击授权 </button></view>
+</view>
